@@ -1,0 +1,59 @@
+{
+  "groups": [
+    {
+      "name": "druid",
+      "type": "com.whjk.creditcard.support.config.prop.DruidDataSourceProp",
+      "sourceType": "com.whjk.creditcard.support.config.prop.DruidDataSourceProp"
+    },
+    {
+      "name": "custom-mybatis",
+      "type": "com.whjk.creditcard.support.config.prop.CustomMybatisProp",
+      "sourceType": "com.whjk.creditcard.support.config.prop.CustomMybatisProp"
+    }
+  ],
+  "properties": [
+    {
+      "name": "druid.url",
+      "type": "java.lang.String",
+      "description": "database url",
+      "sourceType": "com.whjk.creditcard.support.config.prop.DruidDataSourceProp"
+    },
+    {
+      "name": "druid.driverClassName",
+      "type": "java.lang.String",
+      "description": "database driver class name",
+      "sourceType": "com.whjk.creditcard.support.config.prop.DruidDataSourceProp"
+    },
+    {
+      "name": "druid.username",
+      "type": "java.lang.String",
+      "description": "database username",
+      "sourceType": "com.whjk.creditcard.support.config.prop.DruidDataSourceProp"
+    },
+    {
+      "name": "druid.password",
+      "type": "java.lang.String",
+      "description": "database password",
+      "sourceType": "com.whjk.creditcard.support.config.prop.DruidDataSourceProp"
+    },
+    {
+      "name": "custom-mybatis.typeAliasesPackages",
+      "type": "java.lang.String",
+      "description": "mybatis type aliase package",
+      "sourceType": "com.whjk.creditcard.support.config.prop.CustomMybatisProp"
+    },
+    {
+      "name": "custom-mybatis.mappingsLocations",
+      "type": "java.lang.String[]",
+      "description": "mappings classpath locations",
+      "sourceType": "com.whjk.creditcard.support.config.prop.CustomMybatisProp"
+    },
+    {
+      "name": "custom-mybatis.configurationLocation",
+      "type": "java.lang.String",
+      "description": "mappings classpath locations",
+      "sourceType": "com.whjk.creditcard.support.config.prop.CustomMybatisProp"
+    }
+  ],
+  "hints": []
+}

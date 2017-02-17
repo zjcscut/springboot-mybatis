@@ -1,0 +1,14 @@
+server:
+  port: 9092
+  display-name: spring-mybatis
+custom-mybatis:
+  typeAliasesPackages: org.throwable.entity
+  mappingsLocations:
+    -
+     classpath*:mappings/*-Mapper.xml
+  configurationLocation: classpath:config/Mybatis-config.xml
+druid:
+  url: jdbc:mysql://localhost:3306/nutz?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+  driverClassName: com.mysql.jdbc.Driver
+  username: root
+  password: root
